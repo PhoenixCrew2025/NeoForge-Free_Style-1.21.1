@@ -3,9 +3,11 @@
   "item.freestylemod.five_dollar": "Five Dollars",
   "item.freestylemod.ten_dollar": "Ten Dollars",
   "item.freestylemod.fifty_dollar": "Fifty Dollars",
+  "item.freestylemod.one_hundred_dollar": "One Hundred Dollars",
+  "item.freestylemod.one_thousand_dollar": "One Thousand Dollars",
 
 
 
 
-  "creativetab.freestylemod.free_style_items": "Free Styles Items"
+  "creativetab.freestylemod.free_style_mod": "Free Style Mod"
 }

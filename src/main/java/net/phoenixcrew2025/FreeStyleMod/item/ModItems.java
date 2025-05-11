@@ -17,6 +17,17 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FIFTY_DOLLAR = ITEMS.register("fifty_dollar",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ONE_HUNDRED_DOLLAR = ITEMS.register("one_hundred_dollar",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ONE_THOUSAND_DOLLAR = ITEMS.register("one_thousand_dollar",
+            () -> new Item(new Item.Properties()));
+
+
+
+
+
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
