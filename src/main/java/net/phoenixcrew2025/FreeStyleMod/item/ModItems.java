@@ -1,13 +1,13 @@
-package net.phoenixcrew2025.FreeStyle.item;
+package net.phoenixcrew2025.FreeStyleMod.item;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.phoenixcrew2025.FreeStyle.FreeStyle;
+import net.phoenixcrew2025.FreeStyleMod.FreeStyleMod;
 
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FreeStyle.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FreeStyleMod.MOD_ID);
 
     public static final DeferredItem<Item> ONE_DOLLAR = ITEMS.register("one_dollar",
             () -> new Item(new Item.Properties()));

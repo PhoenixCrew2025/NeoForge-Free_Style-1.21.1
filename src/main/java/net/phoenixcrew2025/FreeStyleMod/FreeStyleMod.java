@@ -1,7 +1,7 @@
-package net.phoenixcrew2025.FreeStyle;
+package net.phoenixcrew2025.FreeStyleMod;
 
-import net.phoenixcrew2025.FreeStyle.item.ModCreativeModeTabs;
-import net.phoenixcrew2025.FreeStyle.item.ModItems;
+import net.phoenixcrew2025.FreeStyleMod.item.ModCreativeModeTabs;
+import net.phoenixcrew2025.FreeStyleMod.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -20,14 +20,14 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(FreeStyle.MOD_ID)
-public class FreeStyle {
+@Mod(FreeStyleMod.MOD_ID)
+public class FreeStyleMod {
     public static final String MOD_ID = "freestylemod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public FreeStyle(IEventBus modEventBus, ModContainer modContainer)
+    public FreeStyleMod(IEventBus modEventBus, ModContainer modContainer)
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
