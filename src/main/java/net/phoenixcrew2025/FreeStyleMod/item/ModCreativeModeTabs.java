@@ -18,7 +18,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.freestylemod.free_style_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ONE_DOLLAR);
-
+                        output.accept(ModItems.FIVE_DOLLAR);
+                        output.accept(ModItems.TEN_DOLLAR);
+                        output.accept(ModItems.FIFTY_DOLLAR);
 
                     }).build());
 
