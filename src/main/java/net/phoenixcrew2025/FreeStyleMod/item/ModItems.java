@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ONE_THOUSAND_DOLLAR = ITEMS.register("one_thousand_dollar",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GOD_KILLER_BADGE = ITEMS.register("god_killer_badge",
+            () -> new Item(new Item.Properties()));
 
 
 
