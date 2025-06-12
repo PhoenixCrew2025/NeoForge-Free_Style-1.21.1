@@ -6,8 +6,10 @@
   "item.freestylemod.one_hundred_dollar": "One Hundred Dollars",
   "item.freestylemod.one_thousand_dollar": "One Thousand Dollars",
 
-"item.freestylemod.go_killer_badge": "God Killer Badge",
+"item.freestylemod.god_killer_badge": "God Killer Badge",
 
 
-  "creativetab.freestylemod.free_style_mod": "Free Style Mod"
+  "creativetab.freestylemod.free_style_mod": "Free Style Mod",
+
+  "tooltip.freestylemod.god_killer_badge.tooltip": "You get this For Beating PhoenixCrews Pokemon Team. The God Killer Team"
 }
