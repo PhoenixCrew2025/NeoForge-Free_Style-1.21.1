@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FreeStyleMod.MOD_ID);
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_TAB = CREATIVE_MODE_TAB.register("free_style_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ONE_THOUSAND_DOLLAR.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOD_KILLER_BADGE.get()))
                     .title(Component.translatable("creativetab.freestylemod.free_style_mod"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ONE_DOLLAR);
@@ -25,6 +25,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ONE_HUNDRED_DOLLAR);
                         output.accept(ModItems.ONE_THOUSAND_DOLLAR);
                         output.accept(ModItems.GOD_KILLER_BADGE);
+                        output.accept(ModItems.STORAGE_KEY_1);
+                        output.accept(ModItems.STORAGE_KEY_2);
+                        output.accept(ModItems.STORAGE_KEY_3);
+                        output.accept(ModItems.STORAGE_KEY_4);
+                        output.accept(ModItems.STORAGE_KEY_5);
+                        output.accept(ModItems.STORAGE_MASTER_KEY);
 
                     }).build());
 
