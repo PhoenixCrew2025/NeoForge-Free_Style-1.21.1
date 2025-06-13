@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STORAGE_KEY_4);
                         output.accept(ModItems.STORAGE_KEY_5);
                         output.accept(ModItems.STORAGE_MASTER_KEY);
+                        output.accept(ModItems.COBBLEMON_BATTLE_MUSIC_DISC);
 
                     }).build());
 

@@ -1,0 +1,10 @@
+{
+  "cobblemon_battle_song": {
+    "sounds": [
+      {
+        "name": "freestylemod:cobblemon_battle_song",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -26,5 +26,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.STORAGE_KEY_5.get());
         basicItem(ModItems.STORAGE_MASTER_KEY.get());
         basicItem(ModItems.GOD_KILLER_BADGE.get());
+        basicItem(ModItems.COBBLEMON_BATTLE_MUSIC_DISC.get());
     }
 }

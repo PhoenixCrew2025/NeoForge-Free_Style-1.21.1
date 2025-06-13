@@ -8,6 +8,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.phoenixcrew2025.FreeStyleMod.FreeStyleMod;
+import net.phoenixcrew2025.FreeStyleMod.sound.ModSounds;
 
 import java.util.List;
 
@@ -46,6 +47,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STORAGE_MASTER_KEY = ITEMS.register("storage_master_key",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> COBBLEMON_BATTLE_MUSIC_DISC = ITEMS.register("cobblemon_battle_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.COBBLEMON_BATTLE_SONG_KEY).stacksTo(1)));
 
 
 

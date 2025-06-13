@@ -2,6 +2,7 @@ package net.phoenixcrew2025.FreeStyleMod;
 
 import net.phoenixcrew2025.FreeStyleMod.item.ModCreativeModeTabs;
 import net.phoenixcrew2025.FreeStyleMod.item.ModItems;
+import net.phoenixcrew2025.FreeStyleMod.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -40,6 +41,9 @@ public class FreeStyleMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
