@@ -6,5 +6,45 @@
         "stream": true
       }
     ]
+  },
+  "pink_fluffy_unicorn_song": {
+    "sounds": [
+      {
+        "name": "freestylemod:pink_fluffy_unicorn_song",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_back_in_black": {
+    "sounds": [
+      {
+        "name": "freestylemod:acdc_back_in_black",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_big_balls": {
+    "sounds": [
+      {
+        "name": "freestylemod:acdc_big_balls",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_hells_bells": {
+    "sounds": [
+      {
+        "name": "freestylemod:acdc_hells_bells",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_highway_to_hell": {
+    "sounds": [
+      {
+        "name": "freestylemod:acdc_highway_to_hell",
+        "stream": true
+      }
+    ]
   }
 }

@@ -27,5 +27,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.STORAGE_MASTER_KEY.get());
         basicItem(ModItems.GOD_KILLER_BADGE.get());
         basicItem(ModItems.COBBLEMON_BATTLE_MUSIC_DISC.get());
+        basicItem(ModItems.PINK_FLUFFY_UNICORN_DISC.get());
+        basicItem(ModItems.ACDC_BACK_IN_BLACK_DISC.get());
+        basicItem(ModItems.ACDC_BIG_BALLS_DISC.get());
+        basicItem(ModItems.ACDC_HELLS_BELLS_DISC.get());
+        basicItem(ModItems.ACDC_HIGHWAY_TO_HELL_DISC.get());
     }
 }

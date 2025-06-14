@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.freestylemod.acdc_highway_to_hell_disc.desc"
+  },
+  "length_in_seconds": 208.0,
+  "sound_event": "freestylemod:acdc_highway_to_hell"
+}
