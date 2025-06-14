@@ -46,5 +46,21 @@
         "stream": true
       }
     ]
+  },
+  "demons_song": {
+    "sounds": [
+      {
+        "name": "freestylemod:demons_song",
+        "stream": true
+      }
+    ]
+  },
+  "ocean_drive": {
+    "sounds": [
+      {
+        "name": "freestylemod:ocean_drive",
+        "stream": true
+      }
+    ]
   }
 }

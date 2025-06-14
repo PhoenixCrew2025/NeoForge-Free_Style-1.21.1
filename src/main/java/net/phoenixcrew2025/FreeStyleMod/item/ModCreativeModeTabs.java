@@ -41,6 +41,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ACDC_BACK_IN_BLACK_DISC);
                         output.accept(ModItems.ACDC_HELLS_BELLS_DISC);
                         output.accept(ModItems.ACDC_HIGHWAY_TO_HELL_DISC);
+                        output.accept(ModItems.DEMONS_SONG_DISC);
+                        output.accept(ModItems.OCEAN_DRIVE_DISC);
 
 
                     }).build());

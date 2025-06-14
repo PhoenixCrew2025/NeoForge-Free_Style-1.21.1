@@ -34,6 +34,12 @@ public class ModSounds {
     public static final Supplier<SoundEvent> ACDC_HIGHWAY_TO_HELL = registerSoundEvent("acdc_highway_to_hell");
     public static final ResourceKey<JukeboxSong> ACDC_HIGHWAY_TO_HELL_KEY = createSong("acdc_highway_to_hell");
 
+    public static final Supplier<SoundEvent> DEMONS_SONG = registerSoundEvent("demons_song");
+    public static final ResourceKey<JukeboxSong> DEMONS_SONG_KEY = createSong("demons_song");
+
+    public static final Supplier<SoundEvent> OCEAN_DRIVE = registerSoundEvent("ocean_drive");
+    public static final ResourceKey<JukeboxSong> OCEAN_DRIVE_KEY = createSong("ocean_drive");
+
 
 
 
