@@ -16,17 +16,15 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FreeStyleMod.MOD_ID);
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_TAB = CREATIVE_MODE_TAB.register("free_style_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOD_KILLER_BADGE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STORAGE_MASTER_KEY.get()))
                     .title(Component.translatable("creativetab.freestylemod.free_style_mod_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.GOD_KILLER_BADGE);
                         output.accept(ModItems.STORAGE_KEY_1);
                         output.accept(ModItems.STORAGE_KEY_2);
                         output.accept(ModItems.STORAGE_KEY_3);
                         output.accept(ModItems.STORAGE_KEY_4);
                         output.accept(ModItems.STORAGE_KEY_5);
                         output.accept(ModItems.STORAGE_MASTER_KEY);
-
                     }).build());
 
 
@@ -43,8 +41,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ACDC_HIGHWAY_TO_HELL_DISC);
                         output.accept(ModItems.DEMONS_SONG_DISC);
                         output.accept(ModItems.OCEAN_DRIVE_DISC);
-
-
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_MONEY_TAB = CREATIVE_MODE_TAB.register("free_style_money_tab",
@@ -58,6 +54,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FIFTY_DOLLAR);
                         output.accept(ModItems.ONE_HUNDRED_DOLLAR);
                         output.accept(ModItems.ONE_THOUSAND_DOLLAR);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> FREE_STYLE_BADGE_TAB = CREATIVE_MODE_TAB.register("free_style_badge_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOD_KILLER_BADGE.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleMod.MOD_ID, "free_style_money_tab"))
+                    .title(Component.translatable("creativetab.freestylemod.free_style_mod_badge"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.GOD_KILLER_BADGE);
                     }).build());
 
     public static void register(IEventBus eventBus) {
