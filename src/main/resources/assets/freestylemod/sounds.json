@@ -70,5 +70,13 @@
         "stream": true
       }
     ]
+  },
+  "allstars": {
+    "sounds": [
+      {
+        "name": "freestylemod:allstars",
+        "stream": true
+      }
+    ]
   }
 }

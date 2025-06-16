@@ -73,6 +73,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.OCEAN_DRIVE_KEY).stacksTo(1)));
     public static final DeferredItem<Item> SICKNESS_DISC = ITEMS.register("sickness_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SICKNESS_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> ALLSTARS_DISC = ITEMS.register("allstars_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ALLSTARS_KEY).stacksTo(1)));
 
 
 

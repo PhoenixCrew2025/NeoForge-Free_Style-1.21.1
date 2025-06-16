@@ -43,6 +43,9 @@ public class ModSounds {
     public static final Supplier<SoundEvent> SICKNESS = registerSoundEvent("sickness");
     public static final ResourceKey<JukeboxSong> SICKNESS_KEY = createSong("sickness");
 
+    public static final Supplier<SoundEvent> ALLSTARS = registerSoundEvent("allstars");
+    public static final ResourceKey<JukeboxSong> ALLSTARS_KEY = createSong("allstars");
+
 
 
 

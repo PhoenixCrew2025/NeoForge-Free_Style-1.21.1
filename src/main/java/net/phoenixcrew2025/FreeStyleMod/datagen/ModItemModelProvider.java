@@ -37,5 +37,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SICKNESS_DISC.get());
         basicItem(ModItems.ENCHANT_TOKEN.get());
         basicItem(ModItems.HONEY_TOKEN.get());
+        basicItem(ModItems.ALLSTARS_DISC.get());
     }
 }
