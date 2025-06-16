@@ -15,6 +15,13 @@ import java.util.List;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FreeStyleMod.MOD_ID);
 
+    public static final DeferredItem<Item> ENCHANT_TOKEN = ITEMS.register("enchant_token",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HONEY_TOKEN = ITEMS.register("honey_token",
+            () -> new Item(new Item.Properties()));
+
+
+
     public static final DeferredItem<Item> ONE_DOLLAR = ITEMS.register("one_dollar",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FIVE_DOLLAR = ITEMS.register("five_dollar",
@@ -64,6 +71,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DEMONS_SONG_KEY).stacksTo(1)));
     public static final DeferredItem<Item> OCEAN_DRIVE_DISC = ITEMS.register("ocean_drive_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.OCEAN_DRIVE_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> SICKNESS_DISC = ITEMS.register("sickness_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SICKNESS_KEY).stacksTo(1)));
 
 
 

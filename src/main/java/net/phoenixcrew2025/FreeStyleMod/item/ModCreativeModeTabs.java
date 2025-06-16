@@ -15,9 +15,18 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FreeStyleMod.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> FREE_STYLE_TAB = CREATIVE_MODE_TAB.register("free_style_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STORAGE_MASTER_KEY.get()))
+    public static final Supplier<CreativeModeTab> FREE_STYLE_ITEM_TAB = CREATIVE_MODE_TAB.register("free_style_item_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ENCHANT_TOKEN.get()))
                     .title(Component.translatable("creativetab.freestylemod.free_style_mod_items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.HONEY_TOKEN);
+                        output.accept(ModItems.ENCHANT_TOKEN);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> FREE_STYLE_KEYS_TAB = CREATIVE_MODE_TAB.register("free_style_keys_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STORAGE_MASTER_KEY.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleMod.MOD_ID, "free_style_item_tab"))
+                    .title(Component.translatable("creativetab.freestylemod.free_style_mod_keys"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.STORAGE_KEY_1);
                         output.accept(ModItems.STORAGE_KEY_2);
@@ -30,7 +39,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_DISC_TAB = CREATIVE_MODE_TAB.register("free_style_disc_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.COBBLEMON_BATTLE_MUSIC_DISC.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleMod.MOD_ID, "free_style_tab"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FreeStyleMod.MOD_ID, "free_style_keys_tab"))
                     .title(Component.translatable("creativetab.freestylemod.free_style_mod_disc"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.COBBLEMON_BATTLE_MUSIC_DISC);
@@ -41,6 +50,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ACDC_HIGHWAY_TO_HELL_DISC);
                         output.accept(ModItems.DEMONS_SONG_DISC);
                         output.accept(ModItems.OCEAN_DRIVE_DISC);
+                        output.accept(ModItems.SICKNESS_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_MONEY_TAB = CREATIVE_MODE_TAB.register("free_style_money_tab",

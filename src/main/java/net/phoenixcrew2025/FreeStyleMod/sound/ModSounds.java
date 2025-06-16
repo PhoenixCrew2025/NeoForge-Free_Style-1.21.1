@@ -40,6 +40,9 @@ public class ModSounds {
     public static final Supplier<SoundEvent> OCEAN_DRIVE = registerSoundEvent("ocean_drive");
     public static final ResourceKey<JukeboxSong> OCEAN_DRIVE_KEY = createSong("ocean_drive");
 
+    public static final Supplier<SoundEvent> SICKNESS = registerSoundEvent("sickness");
+    public static final ResourceKey<JukeboxSong> SICKNESS_KEY = createSong("sickness");
+
 
 
 

@@ -1,4 +1,5 @@
 {
+
   "item.freestylemod.one_dollar": "One Dollar",
   "item.freestylemod.five_dollar": "Five Dollars",
   "item.freestylemod.ten_dollar": "Ten Dollars",
@@ -18,27 +19,25 @@
 
   "item.freestylemod.cobblemon_battle_music_disc": "Pokemon Red & Green Opening Song",
   "item.freestylemod.cobblemon_battle_music_disc.desc": "The Pokémon Company - Pokemon Red & Green",
-
   "item.freestylemod.pink_fluffy_unicorn_disc": "Pink Fluffy Unicorn Song",
   "item.freestylemod.pink_fluffy_unicorn_disc.desc": "Kristoffer Larsen - Pink Fluffy Unicorn Song",
-
   "item.freestylemod.acdc_back_in_black_disc": "ACDC Back In Black Song",
   "item.freestylemod.acdc_back_in_black_disc.desc": "ACDC - Back In Black",
-
   "item.freestylemod.acdc_big_balls_disc": "ACDC Big Balls Song",
   "item.freestylemod.acdc_big_balls_disc.desc": "ACDC - Big Balls Song",
-
   "item.freestylemod.acdc_hells_bells_disc": "ACDC Hells Bells Song",
   "item.freestylemod.acdc_hells_bells_disc.desc": "ACDC - Hells Bells Song",
-
   "item.freestylemod.acdc_highway_to_hell_disc": "ACDC Highway To Hell Song",
   "item.freestylemod.acdc_highway_to_hell_disc.desc": "ACDC - Highway To Hell Song",
-
   "item.freestylemod.demons_song_disc": "Ain't no rest for the wicked Song",
   "item.freestylemod.demons_song_disc.desc": "Cage the Elephant - Ain't no rest for the wicked",
-
   "item.freestylemod.ocean_drive_disc": "Ocean Drive Song",
   "item.freestylemod.ocean_drive_disc.desc": "Duke Dumont  - Ocean Drive",
+  "item.freestylemod.sickness_disc": "Down With The Sickness Song",
+  "item.freestylemod.sickness_disc.desc": "Disturbed - Down With The Sickness",
+
+  "item.freestylemod.honey_token": "Honey Token",
+  "item.freestylemod.enchant_token": "Enchant Token",
 
   "painting.freestylemod.shop_sign.title": "Shop",
   "painting.freestylemod.shop_sign.author": "PhoenixCrew",
@@ -48,6 +47,7 @@
   "creativetab.freestylemod.free_style_mod_disc": "Free Style Music Disc",
   "creativetab.freestylemod.free_style_mod_money": "Free Style Money",
   "creativetab.freestylemod.free_style_mod_badge": "Free Style Badges",
+  "creativetab.freestylemod.free_style_mod_keys": "Free Style Keys",
 
   "tooltip.freestylemod.god_killer_badge.tooltip": "You get this For Beating PhoenixCrews Pokemon Team. The God Killer Team"
 }

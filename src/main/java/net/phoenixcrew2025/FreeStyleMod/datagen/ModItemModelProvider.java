@@ -34,5 +34,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ACDC_HIGHWAY_TO_HELL_DISC.get());
         basicItem(ModItems.DEMONS_SONG_DISC.get());
         basicItem(ModItems.OCEAN_DRIVE_DISC.get());
+        basicItem(ModItems.SICKNESS_DISC.get());
+        basicItem(ModItems.ENCHANT_TOKEN.get());
+        basicItem(ModItems.HONEY_TOKEN.get());
     }
 }
