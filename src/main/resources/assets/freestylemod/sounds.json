@@ -78,5 +78,29 @@
         "stream": true
       }
     ]
+  },
+  "just_a_book": {
+    "sounds": [
+      {
+        "name": "freestylemod:just_a_book",
+        "stream": true
+      }
+    ]
+  },
+  "gods_theme": {
+    "sounds": [
+      {
+        "name": "freestylemod:gods_theme",
+        "stream": true
+      }
+    ]
+  },
+  "sleep_token": {
+    "sounds": [
+      {
+        "name": "freestylemod:sleep_token",
+        "stream": true
+      }
+    ]
   }
 }

@@ -46,6 +46,15 @@ public class ModSounds {
     public static final Supplier<SoundEvent> ALLSTARS = registerSoundEvent("allstars");
     public static final ResourceKey<JukeboxSong> ALLSTARS_KEY = createSong("allstars");
 
+    public static final Supplier<SoundEvent> JUST_A_BOOK = registerSoundEvent("just_a_book");
+    public static final ResourceKey<JukeboxSong> JUST_A_BOOK_KEY = createSong("just_a_book");
+
+    public static final Supplier<SoundEvent> GODS_THEME = registerSoundEvent("gods_theme");
+    public static final ResourceKey<JukeboxSong> GODS_THEME_KEY = createSong("gods_theme");
+
+    public static final Supplier<SoundEvent> SLEEP_TOKEN = registerSoundEvent("sleep_token");
+    public static final ResourceKey<JukeboxSong> SLEEP_TOKEN_KEY = createSong("sleep_token");
+
 
 
 

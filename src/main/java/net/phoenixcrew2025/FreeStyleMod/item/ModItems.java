@@ -34,6 +34,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ONE_THOUSAND_DOLLAR = ITEMS.register("one_thousand_dollar",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TEN_THOUSAND_DOLLARS = ITEMS.register("ten_thousand_dollars",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ONE_HUNDRED_THOUSAND_DOLLARS = ITEMS.register("one_hundred_thousand_dollars",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ONE_MILLION_DOLLARS = ITEMS.register("one_million_dollars",
+            () -> new Item(new Item.Properties()));
+
+
     public static final DeferredItem<Item> GOD_KILLER_BADGE = ITEMS.register("god_killer_badge",
             () -> new Item(new Item.Properties()) {
                 @Override
@@ -42,6 +50,16 @@ public class ModItems {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
+    public static final DeferredItem<Item> EVENT_BADGE = ITEMS.register("event_badge",
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.freestylemod.event_badge.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
+
+
     public static final DeferredItem<Item> STORAGE_KEY_1 = ITEMS.register("storage_key_1",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STORAGE_KEY_2 = ITEMS.register("storage_key_2",
@@ -51,6 +69,20 @@ public class ModItems {
     public static final DeferredItem<Item> STORAGE_KEY_4 = ITEMS.register("storage_key_4",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STORAGE_KEY_5 = ITEMS.register("storage_key_5",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORAGE_KEY_6 = ITEMS.register("storage_key_6",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORAGE_KEY_7 = ITEMS.register("storage_key_7",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORAGE_KEY_8 = ITEMS.register("storage_key_8",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORAGE_KEY_9 = ITEMS.register("storage_key_9",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORAGE_KEY_10 = ITEMS.register("storage_key_10",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORAGE_KEY_11 = ITEMS.register("storage_key_11",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STORAGE_KEY_12 = ITEMS.register("storage_key_12",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STORAGE_MASTER_KEY = ITEMS.register("storage_master_key",
             () -> new Item(new Item.Properties()));
@@ -75,6 +107,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SICKNESS_KEY).stacksTo(1)));
     public static final DeferredItem<Item> ALLSTARS_DISC = ITEMS.register("allstars_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.ALLSTARS_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> JUST_A_BOOK_DISC = ITEMS.register("just_a_book_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.JUST_A_BOOK_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> GODS_THEME_DISC = ITEMS.register("gods_theme_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.GODS_THEME_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> SLEEP_TOKEN_DISC = ITEMS.register("sleep_token_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SLEEP_TOKEN_KEY).stacksTo(1)));
 
 
 

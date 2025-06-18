@@ -24,6 +24,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.STORAGE_KEY_3.get());
         basicItem(ModItems.STORAGE_KEY_4.get());
         basicItem(ModItems.STORAGE_KEY_5.get());
+        basicItem(ModItems.STORAGE_KEY_6.get());
+        basicItem(ModItems.STORAGE_KEY_7.get());
+        basicItem(ModItems.STORAGE_KEY_8.get());
+        basicItem(ModItems.STORAGE_KEY_9.get());
+        basicItem(ModItems.STORAGE_KEY_10.get());
+        basicItem(ModItems.STORAGE_KEY_11.get());
+        basicItem(ModItems.STORAGE_KEY_12.get());
         basicItem(ModItems.STORAGE_MASTER_KEY.get());
         basicItem(ModItems.GOD_KILLER_BADGE.get());
         basicItem(ModItems.COBBLEMON_BATTLE_MUSIC_DISC.get());
@@ -38,5 +45,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ENCHANT_TOKEN.get());
         basicItem(ModItems.HONEY_TOKEN.get());
         basicItem(ModItems.ALLSTARS_DISC.get());
+        basicItem(ModItems.JUST_A_BOOK_DISC.get());
+        basicItem(ModItems.GODS_THEME_DISC.get());
+        basicItem(ModItems.SLEEP_TOKEN_DISC.get());
+        basicItem(ModItems.TEN_THOUSAND_DOLLARS.get());
+        basicItem(ModItems.ONE_HUNDRED_THOUSAND_DOLLARS.get());
+        basicItem(ModItems.ONE_MILLION_DOLLARS.get());
+        basicItem(ModItems.EVENT_BADGE.get());
     }
 }

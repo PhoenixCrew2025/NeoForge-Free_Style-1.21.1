@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HONEY_TOKEN);
                         output.accept(ModItems.ENCHANT_TOKEN);
+                        output.accept(ModItems.JUST_A_BOOK_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_KEYS_TAB = CREATIVE_MODE_TAB.register("free_style_keys_tab",
@@ -33,6 +34,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STORAGE_KEY_3);
                         output.accept(ModItems.STORAGE_KEY_4);
                         output.accept(ModItems.STORAGE_KEY_5);
+                        output.accept(ModItems.STORAGE_KEY_6);
+                        output.accept(ModItems.STORAGE_KEY_7);
+                        output.accept(ModItems.STORAGE_KEY_8);
+                        output.accept(ModItems.STORAGE_KEY_9);
+                        output.accept(ModItems.STORAGE_KEY_10);
+                        output.accept(ModItems.STORAGE_KEY_11);
+                        output.accept(ModItems.STORAGE_KEY_12);
                         output.accept(ModItems.STORAGE_MASTER_KEY);
                     }).build());
 
@@ -52,6 +60,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.OCEAN_DRIVE_DISC);
                         output.accept(ModItems.SICKNESS_DISC);
                         output.accept(ModItems.ALLSTARS_DISC);
+                        output.accept(ModItems.GODS_THEME_DISC);
+                        output.accept(ModItems.SLEEP_TOKEN_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_MONEY_TAB = CREATIVE_MODE_TAB.register("free_style_money_tab",
@@ -65,6 +75,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FIFTY_DOLLAR);
                         output.accept(ModItems.ONE_HUNDRED_DOLLAR);
                         output.accept(ModItems.ONE_THOUSAND_DOLLAR);
+                        output.accept(ModItems.TEN_THOUSAND_DOLLARS);
+                        output.accept(ModItems.ONE_HUNDRED_THOUSAND_DOLLARS);
+                        output.accept(ModItems.ONE_MILLION_DOLLARS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_BADGE_TAB = CREATIVE_MODE_TAB.register("free_style_badge_tab",
@@ -73,6 +86,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.freestylemod.free_style_mod_badge"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GOD_KILLER_BADGE);
+                        output.accept(ModItems.EVENT_BADGE);
                     }).build());
 
     public static void register(IEventBus eventBus) {
