@@ -102,5 +102,13 @@
         "stream": true
       }
     ]
+  },
+  "universal_collapse": {
+    "sounds": [
+      {
+        "name": "freestylemod:universal_collapse",
+        "stream": true
+      }
+    ]
   }
 }

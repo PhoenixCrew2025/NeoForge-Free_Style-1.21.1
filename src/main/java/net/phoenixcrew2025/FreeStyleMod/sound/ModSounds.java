@@ -55,6 +55,9 @@ public class ModSounds {
     public static final Supplier<SoundEvent> SLEEP_TOKEN = registerSoundEvent("sleep_token");
     public static final ResourceKey<JukeboxSong> SLEEP_TOKEN_KEY = createSong("sleep_token");
 
+    public static final Supplier<SoundEvent> UNIVERSAL_COLLAPSE = registerSoundEvent("universal_collapse");
+    public static final ResourceKey<JukeboxSong> UNIVERSAL_COLLAPSE_KEY = createSong("universal_collapse");
+
 
 
 

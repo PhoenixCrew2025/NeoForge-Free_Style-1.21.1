@@ -62,6 +62,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALLSTARS_DISC);
                         output.accept(ModItems.GODS_THEME_DISC);
                         output.accept(ModItems.SLEEP_TOKEN_DISC);
+                        output.accept(ModItems.UNIVERSAL_COLLAPSE_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_MONEY_TAB = CREATIVE_MODE_TAB.register("free_style_money_tab",
