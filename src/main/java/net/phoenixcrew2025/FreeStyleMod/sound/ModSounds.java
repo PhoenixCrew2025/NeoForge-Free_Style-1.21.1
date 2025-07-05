@@ -58,6 +58,12 @@ public class ModSounds {
     public static final Supplier<SoundEvent> UNIVERSAL_COLLAPSE = registerSoundEvent("universal_collapse");
     public static final ResourceKey<JukeboxSong> UNIVERSAL_COLLAPSE_KEY = createSong("universal_collapse");
 
+    public static final Supplier<SoundEvent> LAVA_CHICKEN = registerSoundEvent("lava_chicken");
+    public static final ResourceKey<JukeboxSong> LAVA_CHICKEN_KEY = createSong("lava_chicken");
+
+    public static final Supplier<SoundEvent> TEARS = registerSoundEvent("tears");
+    public static final ResourceKey<JukeboxSong> TEARS_KEY = createSong("tears");
+
 
 
 

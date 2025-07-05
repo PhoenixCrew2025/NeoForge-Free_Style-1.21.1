@@ -110,5 +110,21 @@
         "stream": true
       }
     ]
+  },
+  "tears": {
+    "sounds": [
+      {
+        "name": "freestylemod:tears",
+        "stream": true
+      }
+    ]
+  },
+  "lava_chicken": {
+    "sounds": [
+      {
+        "name": "freestylemod:lava_chicken",
+        "stream": true
+      }
+    ]
   }
 }

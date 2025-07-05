@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.freestylemod.lava_chicken_music_disc.desc"
+  },
+  "length_in_seconds": 134.0,
+  "sound_event": "freestylemod:lava_chicken"
+}
