@@ -55,5 +55,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.UNIVERSAL_COLLAPSE_DISC.get());
         basicItem(ModItems.LAVA_CHICKEN_MUSIC_DISC.get());
         basicItem(ModItems.TEARS_MUSIC_DISC.get());
+        basicItem(ModItems.BLACK_CATCHER_DISC.get());
+        basicItem(ModItems.EVERYTHING_I_GOT_DISC.get());
     }
 }
