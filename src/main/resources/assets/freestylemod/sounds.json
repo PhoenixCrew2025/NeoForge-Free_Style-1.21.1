@@ -134,5 +134,13 @@
         "stream": true
       }
     ]
+  },
+  "everything_i_got": {
+    "sounds": [
+      {
+        "name": "freestylemod:everything_i_got",
+        "stream": true
+      }
+    ]
   }
 }
