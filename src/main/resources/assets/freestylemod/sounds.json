@@ -142,5 +142,21 @@
         "stream": true
       }
     ]
+  },
+  "dont_forget_deltarune": {
+    "sounds": [
+      {
+        "name": "freestylemod:dont_forget_deltarune",
+        "stream": true
+      }
+    ]
+  },
+  "you_spin_me_right_round": {
+    "sounds": [
+      {
+        "name": "freestylemod:you_spin_me_right_round",
+        "stream": true
+      }
+    ]
   }
 }

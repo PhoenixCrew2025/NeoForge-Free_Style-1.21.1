@@ -70,6 +70,12 @@ public class ModSounds {
     public static final Supplier<SoundEvent> EVERYTHING_I_GOT = registerSoundEvent("everything_i_got");
     public static final ResourceKey<JukeboxSong> EVERYTHING_I_GOT_KEY = createSong("everything_i_got");
 
+    public static final Supplier<SoundEvent> DONT_FORGET_DELTARUNE = registerSoundEvent("dont_forget_deltarune");
+    public static final ResourceKey<JukeboxSong> DONT_FORGET_DELTARUNE_KEY = createSong("dont_forget_deltarune");
+
+    public static final Supplier<SoundEvent> YOU_SPIN_ME_RIGHT_ROUND = registerSoundEvent("you_spin_me_right_round");
+    public static final ResourceKey<JukeboxSong> YOU_SPIN_ME_RIGHT_ROUND_KEY = createSong("you_spin_me_right_round");
+
 
 
 
