@@ -2,6 +2,7 @@ package net.phoenixcrew2025.FreeStyleMod;
 
 import net.phoenixcrew2025.FreeStyleMod.item.ModCreativeModeTabs;
 import net.phoenixcrew2025.FreeStyleMod.item.ModItems;
+import net.phoenixcrew2025.FreeStyleMod.loot.ModLootModifiers;
 import net.phoenixcrew2025.FreeStyleMod.sound.ModSounds;
 import org.slf4j.Logger;
 
@@ -44,6 +45,8 @@ public class FreeStyleMod {
 
 
         ModSounds.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
