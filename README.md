@@ -74,6 +74,7 @@ For news, updates, support, or to share your creations and use cases:
 
 👉 Submit issues and bugs here on GitHub  
 👉 Share your badge packs, music tracks, and configs with the community!
+
 👉 Join Our Cobblemon Server to Get Updates on the Mod: https://discord.sinnohsanctum.net/
 
 
