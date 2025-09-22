@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.ecreatemod.everything_i_got_disc.desc"
+  },
+  "length_in_seconds": 140.0,
+  "sound_event": "ecreatemod:everything_i_got"
+}

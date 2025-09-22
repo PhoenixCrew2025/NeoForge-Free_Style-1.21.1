@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.ecreatemod.acdc_big_balls_disc.desc"
+  },
+  "length_in_seconds": 158.0,
+  "sound_event": "ecreatemod:acdc_big_balls"
+}
