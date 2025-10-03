@@ -158,5 +158,13 @@
         "stream": true
       }
     ]
+  },
+  "billie_jean": {
+    "sounds": [
+      {
+        "name": "freestylemod:billie_jean",
+        "stream": true
+      }
+    ]
   }
 }

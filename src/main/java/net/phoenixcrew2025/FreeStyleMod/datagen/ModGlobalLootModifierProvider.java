@@ -134,6 +134,12 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                         LootItemRandomChanceCondition.randomChance(0.03f).build()
                 }, ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get()));
 
+        this.add("music20_from_creeper",
+                new AddItemModifier(new LootItemCondition[]{
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/creeper")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.03f).build()
+                }, ModItems.BILLIE_JEAN_DISC.get()));
+
 
     }
 }

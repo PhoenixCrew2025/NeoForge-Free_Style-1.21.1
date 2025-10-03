@@ -76,7 +76,8 @@ public class ModSounds {
     public static final Supplier<SoundEvent> YOU_SPIN_ME_RIGHT_ROUND = registerSoundEvent("you_spin_me_right_round");
     public static final ResourceKey<JukeboxSong> YOU_SPIN_ME_RIGHT_ROUND_KEY = createSong("you_spin_me_right_round");
 
-
+    public static final Supplier<SoundEvent> BILLIE_JEAN = registerSoundEvent("billie_jean");
+    public static final ResourceKey<JukeboxSong> BILLIE_JEAN_KEY = createSong("billie_jean");
 
 
 

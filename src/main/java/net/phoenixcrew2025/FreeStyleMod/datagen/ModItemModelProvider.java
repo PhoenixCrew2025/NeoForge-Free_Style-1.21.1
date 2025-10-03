@@ -59,5 +59,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.EVERYTHING_I_GOT_DISC.get());
         basicItem(ModItems.DONT_FORGET_DELTARUNE_DISC.get());
         basicItem(ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC.get());
+        basicItem(ModItems.BILLIE_JEAN_DISC.get());
     }
 }

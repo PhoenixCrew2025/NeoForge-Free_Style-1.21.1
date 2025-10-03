@@ -69,6 +69,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EVERYTHING_I_GOT_DISC);
                         output.accept(ModItems.DONT_FORGET_DELTARUNE_DISC);
                         output.accept(ModItems.YOU_SPIN_ME_RIGHT_ROUND_DISC);
+                        output.accept(ModItems.BILLIE_JEAN_DISC);
                     }).build());
 
     public static final Supplier<CreativeModeTab> FREE_STYLE_MONEY_TAB = CREATIVE_MODE_TAB.register("free_style_money_tab",

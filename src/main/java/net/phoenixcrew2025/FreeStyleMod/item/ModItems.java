@@ -127,6 +127,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.DONT_FORGET_DELTARUNE_KEY).stacksTo(1)));
     public static final DeferredItem<Item> YOU_SPIN_ME_RIGHT_ROUND_DISC = ITEMS.register("you_spin_me_right_round_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.YOU_SPIN_ME_RIGHT_ROUND_KEY).stacksTo(1)));
+    public static final DeferredItem<Item> BILLIE_JEAN_DISC = ITEMS.register("billie_jean_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BILLIE_JEAN_KEY).stacksTo(1)));
 
 
 
