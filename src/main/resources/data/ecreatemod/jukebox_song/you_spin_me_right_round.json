@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.ecreatemod.you_spin_me_right_round_disc.desc"
+  },
+  "length_in_seconds": 191.0,
+  "sound_event": "ecreatemod:you_spin_me_right_round"
+}

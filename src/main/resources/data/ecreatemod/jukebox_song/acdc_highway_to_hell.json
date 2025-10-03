@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.ecreatemod.acdc_highway_to_hell_disc.desc"
+  },
+  "length_in_seconds": 208.0,
+  "sound_event": "ecreatemod:acdc_highway_to_hell"
+}

@@ -1,0 +1,170 @@
+{
+  "cobblemon_battle_song": {
+    "sounds": [
+      {
+        "name": "ecreatemod:cobblemon_battle_song",
+        "stream": true
+      }
+    ]
+  },
+  "pink_fluffy_unicorn_song": {
+    "sounds": [
+      {
+        "name": "ecreatemod:pink_fluffy_unicorn_song",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_back_in_black": {
+    "sounds": [
+      {
+        "name": "ecreatemod:acdc_back_in_black",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_big_balls": {
+    "sounds": [
+      {
+        "name": "ecreatemod:acdc_big_balls",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_hells_bells": {
+    "sounds": [
+      {
+        "name": "ecreatemod:acdc_hells_bells",
+        "stream": true
+      }
+    ]
+  },
+  "acdc_highway_to_hell": {
+    "sounds": [
+      {
+        "name": "ecreatemod:acdc_highway_to_hell",
+        "stream": true
+      }
+    ]
+  },
+  "demons_song": {
+    "sounds": [
+      {
+        "name": "ecreatemod:demons_song",
+        "stream": true
+      }
+    ]
+  },
+  "ocean_drive": {
+    "sounds": [
+      {
+        "name": "ecreatemod:ocean_drive",
+        "stream": true
+      }
+    ]
+  },
+  "sickness": {
+    "sounds": [
+      {
+        "name": "ecreatemod:sickness",
+        "stream": true
+      }
+    ]
+  },
+  "allstars": {
+    "sounds": [
+      {
+        "name": "ecreatemod:allstars",
+        "stream": true
+      }
+    ]
+  },
+  "just_a_book": {
+    "sounds": [
+      {
+        "name": "ecreatemod:just_a_book",
+        "stream": true
+      }
+    ]
+  },
+  "gods_theme": {
+    "sounds": [
+      {
+        "name": "ecreatemod:gods_theme",
+        "stream": true
+      }
+    ]
+  },
+  "sleep_token": {
+    "sounds": [
+      {
+        "name": "ecreatemod:sleep_token",
+        "stream": true
+      }
+    ]
+  },
+  "universal_collapse": {
+    "sounds": [
+      {
+        "name": "ecreatemod:universal_collapse",
+        "stream": true
+      }
+    ]
+  },
+  "tears": {
+    "sounds": [
+      {
+        "name": "ecreatemod:tears",
+        "stream": true
+      }
+    ]
+  },
+  "lava_chicken": {
+    "sounds": [
+      {
+        "name": "ecreatemod:lava_chicken",
+        "stream": true
+      }
+    ]
+  },
+  "black_catcher": {
+    "sounds": [
+      {
+        "name": "ecreatemod:black_catcher",
+        "stream": true
+      }
+    ]
+  },
+  "everything_i_got": {
+    "sounds": [
+      {
+        "name": "ecreatemod:everything_i_got",
+        "stream": true
+      }
+    ]
+  },
+  "dont_forget_deltarune": {
+    "sounds": [
+      {
+        "name": "ecreatemod:dont_forget_deltarune",
+        "stream": true
+      }
+    ]
+  },
+  "you_spin_me_right_round": {
+    "sounds": [
+      {
+        "name": "ecreatemod:you_spin_me_right_round",
+        "stream": true
+      }
+    ]
+  },
+  "billie_jean": {
+    "sounds": [
+      {
+        "name": "freestylemod:billie_jean",
+        "stream": true
+      }
+    ]
+  }
+}
